@@ -1,0 +1,34 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column{
+        order: 2;
+        margin: 10px 0 0 15px;
+    }
+
+    .navigation-wrapper > .center-column{
+        order: 1;
+        width:100%;
+
+    }
+
+    .navigation-wrapper > .right-column{
+        order: 3;
+        margin: 15px 0 0 0;
+
+    }
+
+    .links-wrapper{
+        flex-direction: column;
+        margin: 0 0 20px 0;
+    }
+
+    .links-wrapper > .nav-link{
+        margin: 10px 0;
+        font-size: 1.5em;
+        width:100%;
+    }
+}
